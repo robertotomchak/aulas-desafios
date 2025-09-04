@@ -8,7 +8,7 @@ void coloca_5(int& x) {
 int main() {
 	int x = 1;
 	int& y = x;
-	int& z = y;
+	int z = y;
 	y = 2;
 	cout << x << " " << y << " " << z << ", ";
 	coloca_5(z);
